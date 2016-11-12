@@ -1,0 +1,35 @@
+.navbar-brand img{
+    display: inline-block;
+    margin-right: 10px;
+}
+.spacer{
+    margin-top: 80px;
+}
+form, .fix{
+    padding: 20px;
+}
+form.options label{
+    display: block;
+}
+span.warning{
+    color: #555;
+    display: block;
+    font-size: 12px;
+    margin-top: 10px;
+    margin-left: 50px;
+}
+span.warning:before{
+    content: "Warning: ";
+    color: #fbbc05;
+    font-weight: bold;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    padding: 30px;
+}
+.fa-heart{
+    color: #f44336 ;
+}

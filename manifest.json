@@ -1,0 +1,28 @@
+{
+    "name": "Facebook Firewall",
+    "version": "1.0",
+    "manifest_version" : 2,
+    "description": "Protect your privacy while on facebook. The missing firewall for your best social network.",
+    "icons":{
+        "16": "icons/icon16.png",
+        "32": "icons/icon32.png",
+        "64": "icons/icon64.png",
+        "128": "icon.png"
+    },
+    "background": {
+        "scripts": ["background.js"]
+    },
+    "browser_action": {
+        "default_title": "Facebook Firewall",
+        "default_icon": "icon.png",
+        "default_popup": "popup.html"
+    },
+    "options_page": "options.html",
+    "permissions": [
+        "storage",
+        "webRequest",
+        "webRequestBlocking",
+        "*://*.facebook.com/*"
+    ]
+
+}

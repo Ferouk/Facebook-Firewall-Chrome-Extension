@@ -1,0 +1,33 @@
+{
+  "name": "Facebook Firewall",
+  "authors": [
+    "Ferouk <BouazzaFerouk@gmail.com>"
+  ],
+  "description": "Protect your privacy while on facebook. The missing firewall for your best social network.",
+  "main": "",
+  "keywords": [
+    "chrome",
+    "extension",
+    "facebook",
+    "firewall"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "1.9.1 - 3",
+    "bootstrap": "^3.3.7",
+    "bootstrap-material-design": "^4.0.2",
+    "snackbarjs": "^1.1.0",
+    "font-awesome": "fontawesome#^4.7.0"
+  },
+  "install": {
+    "path": "libs"
+  }
+}
